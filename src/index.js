@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Frontend from './Frontend';
-import JokesAPI from './JokesAPI';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Frontend from "./Frontend";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import DisneyApi from "./DisneyAPI";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
@@ -13,18 +14,22 @@ root.render(
   </React.StrictMode>
 );
 
-const frontendroot = ReactDOM.createRoot(document.getElementById("frontendroot"));
+const frontendroot = ReactDOM.createRoot(
+  document.getElementById("frontendroot")
+);
 
 frontendroot.render(
   <React.StrictMode>
     <Frontend />
   </React.StrictMode>
-)
+);
 
-const jokesapiroot = ReactDOM.createRoot(document.getElementById("jokesapiroot"));
+const disneyapiroot = ReactDOM.createRoot(
+  document.getElementById("disneyapiroot")
+);
 
-jokesapiroot.render(
+disneyapiroot.render(
   <React.StrictMode>
-    <JokesAPI />
+    <DisneyApi />
   </React.StrictMode>
 );

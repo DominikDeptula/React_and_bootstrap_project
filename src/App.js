@@ -10,6 +10,7 @@ class App extends React.Component {
     return (
       <div className='ui container'>
         {/* <Frontend /> */}
+        TEST
       </div>
       /* <div className="App">
         Hello, world!
