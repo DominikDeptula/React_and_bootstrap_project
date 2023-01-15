@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Button, Card, OverlayTrigger, Tooltip} from 'react-bootstrap'
+import { Button, Card, OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { ArrowRight } from "react-bootstrap-icons";
 
 export default function DisneyApi() {
